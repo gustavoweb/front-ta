@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200">
+    
+    <div class="flex h-screen">
+        <div class="w-1/2 m-auto">
+            <h1 class="text-center font-sans w-full mb-4">Cadastro de Questões</h1>
+            <form action="#">
+                <input type="text" name="title" id="title" placeholder="Digite sua Pergunta..." required="" class="w-full mb-4">
+
+                <input type="file" name="img-comp" id="img-comp" class="w-full mb-4">
+
+                <input type="text" name="resp_a" id="resp_a" placeholder="Opção A" required="" class="w-full mb-4">
+                <input type="text" name="resp_b" id="resp_b" placeholder="Opção B" required="" class="w-full mb-4">
+                <input type="text" name="resp_c" id="resp_c" placeholder="Opção C" required="" class="w-full mb-4">
+                <input type="text" name="resp_d" id="resp_d" placeholder="Opção D" required="" class="w-full mb-4">
+                <input type="text" name="resp_e" id="resp_e" placeholder="Opção E" required="" class="w-full mb-4">
+
+                <select name="resp_correta" id="resp_correta" required="" class="w-full mb-4">
+                    <option value="" selected="">RESPOSTA</option>
+                    <option value="1">A</option>
+                    <option value="2">B</option>
+                    <option value="3">C</option>
+                    <option value="4">D</option>
+                    <option value="5">E</option>
+                </select>
+
+                <input type="text" name="autor" id="autor" placeholder="Autor da Pergunta" required="" class="w-full mb-4">
+
+                <input type="text" name="link" id="link" placeholder="Link ou Citação" required="" class="w-full mb-4">
+
+                <select name="curso" id="curso" required="" class="w-full mb-4">
+                    <option value="" selected="">RESPOSTA</option>
+                    <option value="1">Ensino Fundamental</option>
+                    <option value="2">Ensino Médio</option>
+                    <option value="3">Ensino Superior</option>
+                    <option value="4">Ensino Técnico</option>
+                    <option value="5">Ensino Profissionalizante</option>
+                </select>
+
+                <input type="text" name="Disciplina" id="disciplina" placeholder="disciplina" required="" class="w-full mb-4">
+
+                <textarea name="obs" id="obs" class="w-full mb-4 h-20 resize-none outline-none indent-2" placeholder="Observações"></textarea>
+
+                <button class="w-full mb-4 bg-black text-white">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
